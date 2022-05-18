@@ -19,7 +19,8 @@
                 <input type="text" name="nombre" required placeholder="ingrese su nombre">
 
                 <label for="Apellido">Apellido:</label>
-                <input type="text" name="Apellido" required>
+                <input type="text" name="Apellido" required placeholder="ingrese su Apellido">
+                
 
                 <label for="Sexo">Sexo</label>
                 <input type="radio" name="Sexo" value="Femenino" checked>
@@ -34,8 +35,42 @@
             <fieldset>
                 <legend>Direccion</legend>
 
+                <label for="Provincia">Provincia</label>
+                <select name="Provincia" multiple required>
+                    <option value="Ciudad autonoma de Buenos Aires">Ciudad Autonoma de Buenos Aires</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Norte del Pais">Norte del Pais</option>
+                    <option value="Sur del Pais">Sur del Pais</option>
+                    <option value="Este y Oste del Pais">Este y Oste del Pais</option>
+                  
+                </select>
+                
                 <label for="Ciudad">Ciudad</label>
-                <input type="Ciudad" name="" id="">
+                 <select name="Ciudad" multiple required>
+                    <option value="Malvinas Argentinas Zona norte">Malvinas Argentinas Zona norte</option>
+                    <option value="Ituzaingo">Ituzaingo</option>
+                    <option value="Olivos">Olivos</option>
+                    <option value="Martinez">Martinez</option>
+                    <option value="Barracas">Barracas</option>
+                    <option value="San Fernando">San Fernando</option>
+                    <option value="Tigre">Tigre</option>
+                    <option value="Moron">Moron</option>
+                    <option value="Moreno">Moreno</option>
+                    <option value="Pilar">Pilar</option>
+                    <option value="Gral. Rodriguez">Gral. Rodriguez</option>
+                    <option value="Escobar">Escobar</option>
+                    <option value="Quilmes">Quilmes</option>
+                    <option value="Avellaneda">Avellaneda</option>
+                    <option value="Ver mas...">Ver mas...</option>
+                                       
+                 </select>
+                 
+                 <label for="Calle">Calle:</label>
+                 <input type="text" name="Calle" required>
+
+                 <label for="Altura">Altura:</label>
+                 <input type="text" name="Altura" required>
+                
             </fieldset>
 
 
