@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactenos</title>
 </head>
+
 <body>
     <header>
         <h1>Contactenos</h1>
@@ -27,7 +28,7 @@
                 <legend>Datos Personales</legend>
                 
                 <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" required placeholder="ingrese su nombre">
+                <input type="text" name="Nombre" required placeholder="ingrese su Nombre">
 
                 <label for="Apellido">Apellido:</label>
                 <input type="text" name="Apellido" required placeholder="ingrese su Apellido">
@@ -85,13 +86,20 @@
 
             <fieldset>
                 <legend>Comentario:</legend>
-
                 <input type="file" multiple>
+                <textarea name="texto" cols="25" rows="9"></textarea>
+                <a href="./imagenes/no soy robot.jpg">Anti-Spam:</a>
+                <img src="./imagenes/no soy robot.jpg" height="70" >
+                
             </fieldset>
 
+                <input type="reset" name="resetear" value="Borrar Todo">
+                <input type="submit" name="Guardar" >
 
-
-        </form>
+            </form>
     </main>
+    <footer>
+        <h5>Copyright 2022- HardModding </h5>
+    </footer>
 </body>
 </html>
