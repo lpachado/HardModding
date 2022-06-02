@@ -14,6 +14,7 @@
         background-repeat: no-repeat;
         text-align: center;
         height: 610px;
+        
    }
 
     #titulo {
@@ -27,8 +28,9 @@
 
    #sobre-mi {
 
-    background: linear-gradient(#051c47, rgba(62, 62, 148, 0.363));
+    background: linear-gradient(rgba(62, 62, 148, 0.363),#051c47);
     display: block;
+    height: 145px;
     font-size: mm;
     margin-block-start: -1.2em;
     margin-block-end: 6.83em;
@@ -37,13 +39,14 @@
 }
                 
    #que-hacemos {
+    height: 310px;
+    display: block;
+    font-size: mm;
+    margin-block-start: -6.74em;
+    margin-block-end: 0.83em;
+    margin-inline-start: -5px;
+    margin-inline-end: -5px;
+    background: linear-gradient(#646d7e, black);
         
-        display: block;
-        font-size: mm;
-        margin-block-start: -6.74em;
-        margin-block-end: 6.83em;
-        margin-inline-start: -5px;
-        margin-inline-end: -5px;
-        background: linear-gradient(#646d7e, black)
         
 }
