@@ -3,7 +3,8 @@
     }
 
     header{
-            color:firebrick;
+            color:#f8efef;
+            font-size:xx-large           
     }
 
     #etc {
@@ -15,13 +16,11 @@
         height: 700px;
    }
 
-       
     #titulo {
             color: white;
   }   
 
   .link {
-
-    font-size: large;
-    color: green;
+    font-size:medium;
+    color: rgb(215, 233, 215);
 }
