@@ -24,3 +24,26 @@
     font-size:medium;
     color: rgb(215, 233, 215);
 }
+
+   #sobre-mi {
+
+    background-color: #646d7e;
+    display: block;
+    font-size: mm;
+    margin-block-start: -1.2em;
+    margin-block-end: 6.83em;
+    margin-inline-start: -5px;
+    margin-inline-end: -5px;
+}
+                
+   #que-hacemos {
+        
+        background-color: #646d7e;
+        display: block;
+        font-size: mm;
+        margin-block-start: -6.74em;
+        margin-block-end: 6.83em;
+        margin-inline-start: -5px;
+        margin-inline-end: -5px;
+        
+}
