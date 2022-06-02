@@ -13,7 +13,7 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-repeat: no-repeat;
         text-align: center;
-        height: 700px;
+        height: 610px;
    }
 
     #titulo {
@@ -27,7 +27,7 @@
 
    #sobre-mi {
 
-    background-color: #646d7e;
+    background: linear-gradient(#051c47, rgba(62, 62, 148, 0.363));
     display: block;
     font-size: mm;
     margin-block-start: -1.2em;
@@ -38,12 +38,12 @@
                 
    #que-hacemos {
         
-        background-color: #646d7e;
         display: block;
         font-size: mm;
         margin-block-start: -6.74em;
         margin-block-end: 6.83em;
         margin-inline-start: -5px;
         margin-inline-end: -5px;
+        background: linear-gradient(#646d7e, black)
         
 }
