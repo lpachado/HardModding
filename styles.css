@@ -1,30 +1,27 @@
-    main, footer, nav, div {
-            margin: 5px;
-    }
-
-    header{
-            color:firebrick;
-    }
-
-    #etc {
-        background-image: url(./imagenes/GAMDIAS-guia-armar-PC-Gamer.jpg);
-        background-size: 100%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        background-repeat: no-repeat;
-        text-align: center;
-        height: 700px;
-        
-
-        }
-
-       
-    #titulo {
-            color: white;
-  }   
-
-  .link {
-
-    font-size: large;
-    color: green;
+main, footer, nav, div {
+    margin: 5px;
 }
 
+header{
+    color:firebrick;
+}
+
+#etc {
+background-image: url(./imagenes/GAMDIAS-guia-armar-PC-Gamer.jpg);
+background-size: 100%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-repeat: no-repeat;
+text-align: center;
+height: 700px;
+}
+
+
+#titulo {
+    color: white;
+}   
+
+.link {
+
+font-size: large;
+color: green;
+}
