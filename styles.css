@@ -1,31 +1,36 @@
         main, footer, nav, div {
             margin: 5px;
-    }
+}
 
     header{
             color:#f8efef;
             font-size:xx-large           
-    }
+}
 
     #etc span{
 
         padding: 10px;
-    }
+        font-weight: bold;
+        
+}
 
-    #etc {
+
+   #etc a{
+        text-decoration: none;
+   }
+
+   #etc {
         background-image: url(./imagenes/GAMDIAS-guia-armar-PC-Gamer.jpg);
         background-size: 100%;
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-repeat: no-repeat;
         text-align: center;
         height: 610px;
-        
-        
-   }
+}
 
-    #titulo {
+        #titulo {
             color: white;
-  }   
+}   
 
   .link {
     font-size:medium;
