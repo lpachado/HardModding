@@ -1,63 +1,53 @@
-        main, footer, nav, div {
-            margin: 5px;
-}
-
-    header{
-            color:#f8efef;
-            font-size:xx-large           
-}
-
-    #etc span{
-
-        padding: 10px;
-        font-weight: bold;
-        
+main, footer, nav, div, {
+    margin: 1px;
 }
 
 
-   #etc a{
-        text-decoration: none;
-   }
-
-   #etc {
-        background-image: url(./imagenes/GAMDIAS-guia-armar-PC-Gamer.jpg);
-        background-size: 100%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        background-repeat: no-repeat;
-        text-align: center;
-        height: 610px;
+#nav-nav {
+    background-color: rgb(215, 215, 226);
+    background-image: url(./imagenes/GAMDIAS-guia-armar-PC-Gamer.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    height: 610px;
+    flex-direction: column;
+    
 }
 
-        #titulo {
-            color: white;
-}   
-
-  .link {
-    font-size:medium;
-    color: rgb(215, 233, 215);
+#nav-nav a{
+text-decoration:none;
+font-size:large;
+color: white;
+padding: 10px;
 }
 
-   #sobre-mi {
-
-    background: linear-gradient(rgba(62, 62, 148, 0.363),#051c47);
-    display: block;
-    height: 145px;
-    font-size: mm;
-    margin-block-start: -1.2em;
-    margin-block-end: 6.83em;
-    margin-inline-start: -5px;
-    margin-inline-end: -5px;
+#titulo{
+color: white;
+font-size: xx-large;
+font-weight: bold;  
 }
-                
-   #que-hacemos {
-    height: 310px;
-    display: block;
-    font-size: mm;
-    margin-block-start: -6.74em;
-    margin-block-end: 0.83em;
-    margin-inline-start: -5px;
-    margin-inline-end: -5px;
-    background: linear-gradient(#646d7e, black);
-        
-        
+
+#sobre-mi{
+
+background-color: #5c6263;
+width: 100%;
+display: block padding: 5px;
+margin: 2px;
+margin-block-start: -1.2em;
+/* margin-block-end: 6.83em; */
+margin-inline-start: 2px;
+margin-inline-end: 2px;
+border-left-width: 1px;
+margin-left: 0px;
+}
+#que-hacemos{
+width: 100%;
+height: 35vh;
+background: linear-gradient(#5c6263, black);
+margin-top:-5mm;
+
+
+
 }
