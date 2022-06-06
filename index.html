@@ -10,20 +10,34 @@
     <title>HardModding</title>
 </head>
 <style>
-    main, footer, nav, div, {
+    main, footer, body {
             margin: 1px;
-            
+            margin-left: 6px;
+            margin-left: 3  px;
+            margin-right: 2px;
+            border:solid
+
     }
     
+    main{
+            border-left-width: 0px;
+            border-top-width: 0px;
+            border-bottom-width: 0px;
+            margin-right: 0px;
+            border-right-width: 0px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-left: 0px;
+    }
 
-    #nav-nav {
+    #nav-nav{
             background-color: rgb(215, 215, 226);
             background-image: url(./imagenes/GAMDIAS-guia-armar-PC-Gamer.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
+            margin-left: 1px;
+            margin-right: 1px;
             text-align: center;
-            display: flex;
-            flex-flow: row wrap;
             height: 610px;
             flex-direction: column;
             
@@ -49,7 +63,6 @@
             display: block padding: 5px;
             margin: 2px;
             margin-block-start: -1.2em;
-            /* margin-block-end: 6.83em; */
             margin-inline-start: 2px;
             margin-inline-end: 2px;
             border-left-width: 1px;
@@ -66,32 +79,70 @@
     }
 
     #promociones-st{
-            background-color: chartreuse;
-            width: 50%;
+            width: 100%;
             height: 20vh;
+            width: 100%;
+            height: 26vh;
+            margin-top:-5mm;
+            text-align: start;
+            text-decoration:dashed;
+            background-color: rgb(93, 158, 146)
 
     }
 
+    #contactenos-st{
+            display: inline-block;
+            font-size:large;
+            color:black;
+            
+    }
+    #contactenos-st a{
+        text-decoration: none;
+        padding: 2px;
+        padding-left: 2px;
+        border: black; 
+    }
+     
+    ul{
+        padding-inline-start: 0px;
+        margin-bottom: 21px;
+        padding-left: 21px;
+            
+}
+    ol{
+        padding-inline-start: 0px;
+    }
+
+    h2{
+        text-align: center;
+        font-size:xx-large
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h5{
+        
+    }
+
+
 </style>
 <body>
+    <main>
     <header id="nav-nav"> 
         <nav>
          <span><a href="#sobre mi" class="link">Sobre Mi</a></span> 
          <span><a href="#que hacemos" class="link">Que Hacemos</a></span>
          <span><a href="#promociones" class="link">Promociones</a></span>
          <span><a href="./contactenos.html" class="link">Contactenos</a></span>  
-
         </nav>
         <div id="titulo">
             <h1> <b>HARDMODDING</b></h1>
-            </div>
-            
-               
+        </div>          
     </header>
-    <main>
+    
         <section>
             <div id="sobre-mi">
-                <h2>Sobre Mi</h2>
+                <h2><u><em>Sobre Mi</em></u></h2>
                 <p>Modificacion de setup</p>
                 <p>Venta de productos para modding y mucho mas</p>           
             </div>
@@ -99,8 +150,8 @@
 
         <section>
             <div id="que-hacemos">
-                <h2>Que Hacemos</h2>
-                <p>nos dedicamos al armado de PC mediante un proceso llamado Modding usando refrigeración líquida, RGB, etc. Un mejor aspecto gracias a las modificaciones que realizamos en los gabinetes o todo tipo de hardware</p>
+                <h2><u><em>Que Hacemos</em></u></h2>
+                <p>Nos dedicamos al armado de PC mediante un proceso llamado Modding usando refrigeración líquida, RGB, etc. Un mejor aspecto gracias a las modificaciones que realizamos en los gabinetes o todo tipo de hardware.</p>
                 <img src="./imagenes/Cap1.png" alt="cap1" height="170">
                 <img src="./imagenes/Cap2.png" alt="cap2" height="170">
                 <img src="./imagenes/Cap3.png" alt="cap3" height="170">
@@ -112,7 +163,7 @@
 
         <section>
             <div id="promociones-st">
-                <h2>Promociones</h2>
+                <h2><u><em>Promociones</em></u></h2>
                 <ul>
                     <li>Gabinete RGB $8.500 </li>                              
                     <li>Refrigeración liquida instalación, liquid varios colores $20.000 </li>                
@@ -124,40 +175,33 @@
             </div>
         </section>
 
-        <section id="contactenos">
-            <h2>Contactenos</h2>
-            <div>                               
+        <section>            
+            <h2><u><em>Contactenos</em></u></h2>
+            <div id="contactenos-st">    
+                                           
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.4642373693077!2d-58.42228228499282!3d-34.794260580410544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3a9a7356c69%3A0x122cba3b9582af0a!2sEl%20Cabo%2C%20Llavallol%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1652730157133!5m2!1ses!2sar" width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <ul>
                    <il>
                     <img src="./imagenes/Contactenos.jpg" height="20">
-                    <a href="./contacto.html"> Contactenos </a>
+                    <a href="./contacto.html">Contactenos</a>
                    </il>
+                </ul> 
 
-                    <h5>Seguinos En</h5>   
-                <ol>
-                    <img src="./imagenes/facebook-logo-5-1.png" alt="facebook-logo-5-1" height="20">
-                    <a href="#"> Facebook </a>
-                </ol>
-                <ol>                
-                    <img src="./imagenes/png-transparent-logo-instagram-text-logo-number-thumbnail.png" alt="instragram" height="20">
-                    <a href="#"> Instagram </a>
-                </ol>
-                <ol>                
-                    <img src="./imagenes/png-transparent-computer-icons-logo-twitter-miscellaneous-blue-logo-thumbnail.png" alt="twitter" height="20">
-                    <a href="#"> Twitter </a>
-                </ol>
-                <ol>                
+                <ul>    
+                <ol h5><b>Seguinos en</b></h5>
+                    <img src="./imagenes/facebook-logo-5-1.png" alt="facebook-logo-5-1" height="20">                    
+                    <img src="./imagenes/png-transparent-logo-instagram-text-logo-number-thumbnail.png" alt="instragram" height="20">                    
+                    <img src="./imagenes/png-transparent-computer-icons-logo-twitter-miscellaneous-blue-logo-thumbnail.png" alt="twitter" height="20">                    
                     <img src="./imagenes/images.png" alt="tiktok" height="20">
-                    <a href="#"> TikTok     </a>
-                </ol>
+                </ol>             
                 </ul>
+            </nav>
             </div>
-
+            
         </section>
     </main>
     <footer>
-        <P>Copyright 2022 </P>
+        <P>Copyright 2022</P>
     </footer>
 </body>
 </html>
