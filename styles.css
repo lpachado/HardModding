@@ -10,12 +10,12 @@ border-top: solid;
 
 #nav-nav{
     background-image: url(./imagenes/GAMDIAS-guia-armar-PC-Gamer.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
     text-align: center;
     height: 610px;
-    flex-direction: column;
+    background-size: cover;
+    background-attachment: fixed;    
 }
+
 
 #nav-nav a{
     text-decoration:none;
